@@ -1,0 +1,19 @@
+# Site Info
+name: Modelling Network
+title: Modelling Network
+description: 'Looking for models photographers portfolio profiles bookings casting events'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+markdown: kramdown
+url: 'https://modellingnetwork.co.uk'
+baseurl: "https://modellingnetwork.co.uk"
+permalink: /blog/:categories/:title/
+exclude: ['README.md']
+include: ["_pages"]
+future: true
+
+# Social Media Accounts
+Social: ModellingNetwork
+phone: 4407703049609
+email: duncan@modellingnetwork.co.uk
+author: Duncan Brown
