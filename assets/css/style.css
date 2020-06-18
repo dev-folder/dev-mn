@@ -1,0 +1,68 @@
+*{margin:0; padding: 0;}
+
+body{background-color: #fff;}
+
+h1, h2, h3, h4{}
+h1{}
+h2{}
+h3{}
+h4{}
+
+p, p a{}
+ul, ul a{}
+li, a{list-style: none;}
+img, img a{}
+
+a:link, a:visited {text-decoration:none;}
+a:hover, a:active {text-decoration:none;}
+
+.left{float: left;}
+.right{float: right;}
+.clear{clear: both;}
+
+.justFade { animation: fadeAndScale .7s ease-in; transform-origin: center;}
+	@keyframes fadeAndScale{
+		from { opacity: 0; }, to { opacity: 1; },
+	}
+
+header{}
+header h1{}
+
+nav{}
+nav ul{margin: 4% auto;}
+nav ul li{text-transform: uppercase; float: left; margin: 0 2%;}
+
+section{}
+
+main{}
+main h2{}
+main p{}
+main a{}
+
+/* Login Page Styling */
+.login-page{background-color: #fd217e; text-align: center; color: #fff; padding-top:20%;}
+
+.login-page main{}
+.login-page main form{width: 80%; margin:0 auto; padding:4%; text-align: center;}
+.login-page main form img{width: 80%; margin:0 auto; padding:4%; text-align: center;}
+.login-page main form input[type="text"]{width: 70%; font-size:10pt; margin: 0 auto; padding:4%; border-radius: 4pt; border:none; background-color: #feafd0; color: #696969;}
+.login-page main form input[type="submit"], .register{margin: 0 auto; padding:2.5% 4%; border-radius: 4pt; border:none; display: block; font-weight:normal; text-transform: uppercase; font-size: 10pt; letter-spacing:0.5pt; cursor: pointer;}
+.login-page main form a{color: #ffecf2; text-decoration: none; line-height: 40pt;}
+.login-page main form a:hover{text-decoration: underline; color:#fff;}
+
+.login{background-color: #9b0b4f; margin: auto; color: #fff;}
+.register{background-color: #64048c; color: #fff; margin-top: 10%;;}
+
+article{}
+article h2{}
+article p{}
+article a{}
+
+/* End Login Page Styling*/
+
+
+aside{}
+
+footer{}
+footer p{}
+footer a{}
