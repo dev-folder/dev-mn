@@ -98,23 +98,40 @@ article a{margin:2% 0; color:#fd217e; display: block;}
 .home-message > .message-content{}
 button .message-reply{}
 
-
 .home-new-gallery{}
 .home-new-gallery img{width:100%; height:auto;}
 
-.new-gallery{margin:0; padding:0;}
+.new-gallery{margin:0 0 7% 0; padding:0;}
+.new-gallery h4{color: #333; margin:3% 0;}
 .new-gallery img{width:100%; height:auto; border-radius: 7pt;}
-.new-gallery img:nth-child(2n){width:32%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
-.new-gallery img:nth-child(3n){width:32%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
-.new-gallery img:nth-child(4n){width:32%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
+.new-gallery img:nth-child(2n){width:31%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
+.new-gallery img:nth-child(3n){width:31%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
+.new-gallery img:nth-child(4n){width:31%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
 
-/*
-.content-link-image ul li img{width: 100%; height:auto; display: block; filter: opacity(100%);}
-.content-link-image ul li:nth-child(4), .content-link-image ul li:nth-child(5n) {width: 50%; float: left;}
-.content-link-image ul li:nth-child(9) {width: 100%; float: left;}
-.content-link-image ul li a img{ height:auto; display: block; filter: opacity(40%);}
-*/
 
+
+.My-Profile {text-align: center;}
+.My-Profile > .username h2{text-align: center; font-size: 22pt; margin: 5% 0; display: block;}
+.My-Profile > .username span{display: block; font-weight: bold; margin-top:3%;}
+.My-Profile > .username img{border-radius: 50%; width:70%; margin:0 auto; display: block;}
+
+.my-galleries{margin:0; padding:0;}
+.my-galleries h3{text-align:center;}
+.my-galleries img{width:100%; margin:0 1%; height:auto; border-radius: 7pt;}
+.my-galleries img:nth-child(2n){width:31%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
+.my-galleries img:nth-child(3n){width:31%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
+.my-galleries img:nth-child(4n){width:31%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
+
+.messages-page{display: grid; grid-template-columns: 1fr 1fr 60% 1fr; align-items: center; background-color:#fd217e; border-radius: 7pt; padding:2%; margin:3% 0;}
+.message-img{grid-column:1;}
+.message-img img{border-radius:50%; width: 90%; height:auto;}
+
+.message-name{grid-column:2; text-align: center; margin: 0 4%; color:#000; font-size: 11pt; font-weight:bold; line-height:10pt;}
+
+.message-content{grid-column:3; margin-left: 5%; font-size: 10pt; color: #fff;}
+
+.message-read{grid-column:4; padding: 4%;}
+.message-reply{border:none; background-color: #9b0b4f; color:#fff; padding:7%; line-height: 15pt; border-radius: 9pt;}
 
 aside{}
 
