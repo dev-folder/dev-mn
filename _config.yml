@@ -5,8 +5,8 @@ description: 'Looking for models photographers portfolio profiles bookings casti
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 markdown: kramdown
-url: 'https://modellingnetwork.co.uk'
-baseurl: "https://modellingnetwork.co.uk"
+url: 'https://dev-folder.github.io/dev-mn/'
+baseurl: "https://dev-folder.github.io/dev-mn/"
 permalink: /blog/:categories/:title/
 exclude: ['README.md']
 include: ["_pages"]

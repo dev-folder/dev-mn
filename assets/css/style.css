@@ -1,17 +1,15 @@
 /*
-Theme Name: disBiz
-Theme URI: http://disbiz.co
-Description: Static theme with jekyll integration suitable for a business website.
-Author: Andy Brown
-Author URI: https://andy.cymru
-Version: 1.0
-Tags: static jekyll theme
+	Theme Name: Modelling Network
+	Theme URI: https://dev-folder.github.io/dev-mn/
+	Description: Static theme with jekyll integration.
+	Author: Andy Brown
+	Author URI: https://imsofunky.com
+	Version: 1.0
+	Tags: static jekyll theme
+	Copyright (C) 2020 ImSoFunky
+	License: GNU General Public License, version 3 (GPLv3)
+	License URI: license.txt
 
-Copyright (C) 2020 AndyCymru
-License: GNU General Public License, version 3 (GPLv3)
-License URI: license.txt
-*/
-/*
 	Main Pink: #fd217e
 	Dark Pink: #9b0b4f
 	Purple: #64048c
@@ -40,10 +38,7 @@ img, img a{}
 a:link, a:visited {text-decoration:none;}
 a:hover, a:active {text-decoration:none;}
 
-header{background-color: #b1b1b1; 
-    display: grid;
-    grid-template-columns: 1fr 12%; 
-	align-items: center;}
+header{background-color: #b1b1b1; display: grid; grid-template-columns: 1fr 12%;  align-items: center;}
 
 header .logo{grid-column:1; text-align: center; padding:1% 0;}
 header .logo img{width:40%; padding: 2% 0;}
@@ -51,44 +46,18 @@ header .logo img{width:40%; padding: 2% 0;}
 header .menu{grid-column:2; margin: 0 auto; padding: 25%;}
 header .menu img{width:100%;}
 
-main{height:2000px;}
+main{}
 main h2{}
 main p{}
 main a{}
 
 
 /* Tooltip container */
-.tooltip {
-	position: relative;
-	display: inline-block;
-	border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-  }
-  
-  /* Tooltip text */
-  .tooltip .tooltiptext {
-	visibility: hidden;
-	width: 120px;
-	bottom: 100%;
-	left: 50%;
-	margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
-	background-color: black;
-	color: #fff;
-	text-align: center;
-	padding: 5px 0;
-	border-radius: 6px;
-   
-	/* Position the tooltip text - see examples below! */
-	position: absolute;
-	z-index: 1;
-  }
-  
-  /* Show the tooltip text when you mouse over the tooltip container */
-  .tooltip:hover .tooltiptext {
-	visibility: visible;
-  }
-
-
-
+.tooltip { position: relative; display: inline-block; border-bottom: 1px dotted black; /* If you want dots under the hoverable text */}
+/* Tooltip text */
+.tooltip .tooltiptext { visibility: hidden; width: 120px; bottom: 100%; left: 50%; margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */ background-color: black; color: #fff; text-align: center; padding: 5px 0; border-radius: 6px; /* Position the tooltip text - see examples below! */ position: absolute; z-index: 1; }  
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext { visibility: visible; }
 
 /* Login Page Styling */
 .login-page { background-color: #fd217e; text-align: center; color: #fff; padding-top: 20%; }
@@ -104,10 +73,48 @@ main a{}
 .register { background-color: #64048c; color: #fff; margin-top: 10%;}
 /* End Login Page Styling */
 
-article{}
+.page-main { width:90%; margin:0 auto 15% auto; }
+.page-main h2{color:#696969; margin: 2% 0; font-size:14pt; text-align: left; text-transform: uppercase;}
+.page-main p{color:#000; margin: 2% 0;}
+
+
+article{margin: 5% 0 10% 0;}
 article h2{}
+article h3{ text-transform: uppercase; color:#666; margin: 2% 0; font-size:16pt;}
 article p{}
-article a{}
+article a{margin:2% 0; color:#fd217e; display: block;}
+
+
+.home-post{width:100%;}
+.home-post a img, .home-post img{width:100%; height:auto;}
+
+.username{ display: inline;}
+.username a img{border-radius: 50%; width: 30px; height: auto; display: inline; vertical-align: middle;}
+.username a h2{ display: inline; vertical-align: middle; margin: 0 2%; font-size: 12pt; text-transform: none;}
+
+.home-message{border-radius:10pt; background-color:#e9e9e9; padding:2%;}
+.home-message > .username {width:20%; display: inline; }
+.home-message > .block-line hr{width:60%; display: inline; background-color: #fd217e; }
+.home-message > .message-content{}
+button .message-reply{}
+
+
+.home-new-gallery{}
+.home-new-gallery img{width:100%; height:auto;}
+
+.new-gallery{margin:0; padding:0;}
+.new-gallery img{width:100%; height:auto; border-radius: 7pt;}
+.new-gallery img:nth-child(2n){width:32%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
+.new-gallery img:nth-child(3n){width:32%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
+.new-gallery img:nth-child(4n){width:32%; margin: 0 0.3%; height:auto; display: inline-block; border:none;}
+
+/*
+.content-link-image ul li img{width: 100%; height:auto; display: block; filter: opacity(100%);}
+.content-link-image ul li:nth-child(4), .content-link-image ul li:nth-child(5n) {width: 50%; float: left;}
+.content-link-image ul li:nth-child(9) {width: 100%; float: left;}
+.content-link-image ul li a img{ height:auto; display: block; filter: opacity(40%);}
+*/
+
 
 aside{}
 
